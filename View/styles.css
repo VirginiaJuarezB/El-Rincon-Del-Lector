@@ -1,0 +1,1566 @@
+*{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+
+    background-image: url(../img/background1.jpg);
+    background-position: center;
+    background-size: 3000px 2000px;
+    width: 100%;
+}
+
+
+.cabecera{
+    background-image: url(../img/background3.jpeg);
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+    width: 100%;
+}
+
+nav{
+    text-decoration: none;
+    background-color: #C1C4B2;
+    padding: 4px;
+    width: 103%;     
+}
+
+
+nav>ul>li{
+
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+nav>ul>li>a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav>ul>li>a:hover{
+
+    color: azure;
+    font-weight: bold;
+}
+
+#welcome{
+   text-align: center;     
+   font-size: 50px;
+
+}
+
+
+.flex-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+#loginForm{
+
+    width: 100%;
+    padding-right: 30px;        
+}
+
+#loginForm>fieldset>legend{
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#userLogIn{
+
+    margin-right: 5px;
+}
+
+#buttonsIndex{
+
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+#enviarIndex{
+    background-color: #47A2BB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 1%;
+    border: 1px #ccc;
+    margin-top: 5px;
+}
+
+#enviarIndex:hover{
+
+    background-color: #C1C4B2;
+
+}
+
+
+#resetIndex{
+    background-color: #47A2BB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 1%;
+    border: 1px #ccc;
+    margin-top: 5px;
+   
+}
+
+#resetIndex:hover{
+
+    background-color: #C1C4B2;
+
+}
+
+#container2{
+    
+    text-align: center;
+
+}
+
+#container2>h3{
+
+    font-size: 20px;
+}
+
+#container2>p{
+
+    font-size: 16px;
+}
+
+#container2>a{
+
+    color:#47A2BB;
+    text-decoration: none;;
+}
+
+#registerLink:hover{
+
+    color: #47A2BB;
+}
+
+
+footer{
+    margin-top: 700px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+#enviarReg{
+
+    background-color: #47A2BB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    border: 1px #ccc;
+    margin-top: 15px;
+    margin-left: 380px;
+}
+
+#enviarReg:hover{
+
+    background-color: #C1C4B2;
+
+}
+
+#resetReg{
+
+    background-color: #47A2BB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    border: 1px #ccc;
+    margin-top: 15px;
+}
+
+#resetReg:hover{
+
+    background-color: #C1C4B2;
+
+}
+
+#volverReg{
+
+    background-color: #47A2BB;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    border: 1px #ccc;
+    margin-top: 15px;
+}
+
+#volverReg:hover{
+
+    background-color: #C1C4B2;
+
+}
+
+#volverReg>a{
+
+    text-decoration: none;
+}
+#volverReg>a:visited{
+
+    color: black;
+}
+
+#userReg{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#cabeceraShelf{
+
+    width: 100%;
+}
+
+#navbarShelf{
+
+    width: 100%;
+}
+
+#menuShelf{
+
+    float: left;
+    width: 102.7%;
+    font-weight: bold;
+    font-size: 20px;
+    height: 63px;
+    
+}
+
+#index{
+
+    float: left;
+}
+
+#shelf {
+
+    float: left;
+    margin-left: 20px;
+}
+
+#shelfTitle{
+
+    margin-top: 90px;
+    text-align: center;
+}
+
+#estanteria{
+
+    width: 100%;
+    margin-left: 80px;
+}
+
+#readContainer{
+
+    width: 35%;
+}
+
+#readingContainer{
+
+    margin-top: 20px;
+    width: 35%;
+}
+
+#toReadContainer{
+
+    margin-top: 20px;
+    width: 35%;
+
+}
+
+#abandonedContainer{
+    margin-top: 20px;
+    width: 35%;
+}
+
+#formContainer{
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#ftitle{
+
+    margin-bottom: 10px;
+
+}
+
+#logOutShelf{
+
+    width: 35%;
+}
+
+#readContainer>h2{
+
+    text-align: center;
+}
+
+#readingContainer>h2{
+
+    text-align: center;
+}
+
+#toReadContainer>h2{
+
+    text-align: center;
+}
+
+#abandonedContainer>h2{
+
+    text-align: center;
+}
+
+#logOutShelf{
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+#deleteForm{
+    background-color: #47A2BB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 6px;
+    border: 1px #ccc;
+}
+
+#deleteForm:hover{
+
+    background-color: #C1C4B2;
+}
+
+#modifyButtonForm{
+
+    background-color: #47A2BB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 6px;
+    border: 1px #ccc;
+
+}
+
+#modifyButtonForm:hover{
+
+    background-color: #C1C4B2;
+}
+
+#modifyButtonForm>a{
+
+    text-decoration: none;
+    color: black;
+}
+
+#enviarShelf{
+
+    background-color: #47A2BB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 6px;
+    border: 1px #ccc;
+    
+}
+
+#enviarShelf:hover{
+
+    background-color: #C1C4B2;
+}
+
+#logout{
+
+    background-color: #47A2BB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 6px;
+    border: 1px #ccc;
+    
+}
+
+#logout:hover{
+
+    background-color: #C1C4B2;
+}
+
+#navbarModify{
+
+    float: left;
+    width: 99.6%;
+    font-weight: bold;
+    font-size: 20px;
+    height: 63px;
+}
+
+#modifyForm{
+
+    margin-top: 90px;
+   padding: 10px;
+    
+}
+
+#modifyForm>h2{
+
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+
+#title{
+    
+    margin-bottom: 10px;
+    width: 272px;
+}
+
+#category{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 272px;
+}
+
+
+#modifyButton{
+
+    margin-left: 5px;
+    background-color: #47A2BB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    border: 1px #ccc;
+    width: 200px;
+}
+
+#modifyButton>a{
+
+    text-decoration: none;
+    padding: 3%;
+    font-size: 15px;
+    
+}
+
+#modifyButton>a:visited{
+
+    color: black;
+}
+
+#enviarMod{
+
+    background-color: #47A2BB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    border: 1px #ccc;
+    font-size: 15px; 
+}
+
+.table{
+
+    border: 1px solid #47A2BB;
+}
+
+th{
+
+    border: collapse;
+    width: 2000px;
+    height: 30px;
+
+}
+
+td{
+
+    border: 1px solid #47A2BB;
+}
+
+.thHidden{
+
+    border: 1px solid transparent;
+
+}
+
+#navbarData{
+
+    width: 97%;
+}
+
+#adminData{
+
+    width: 50%;
+    margin-right: 100px;
+    align-items: center;
+}
+
+#SAForm{
+
+    text-align: center;
+    
+}
+
+.label{
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.input{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 271px;
+}
+
+.inputNum{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 271px;
+}
+
+.adminButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#DataContainer{
+
+    margin-bottom: 10px;
+}
+
+#userContainer{
+
+    margin-top: 20px;
+}
+
+.adminLegend{
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.adminField{
+
+    border: 3px solid #47A2BB;
+}
+
+@media(max-width:1920px){
+
+    #menuShelf {
+            
+        width: 102.7%;
+        
+    }
+}
+
+@media(max-width:1883px){
+
+                
+    #modifyButtonForm{
+
+        padding: 5px;
+    }
+
+
+}
+
+@media (max-width:1612px){
+
+    #estanteria{
+
+        #readContainer{
+
+            width: 50%;
+        }
+        
+        #readingContainer{
+        
+            width: 50%;
+        }
+        
+        #toReadContainer{
+        
+            width: 50%;
+            
+        }
+        
+        #abandonedContainer{
+           width: 50%;
+        }
+        
+        #formContainer{
+            
+            width: 50%;
+           
+        }
+    }
+
+   
+}
+
+@media(max-width:1400px){
+
+    #slefTitle{
+
+       margin-left: 100px;
+    }
+}
+
+@media(max-width:1300px){
+
+    #slefTitle{
+
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:1310px){
+
+    #loginForm{
+
+        margin-right: 50px;
+    }
+
+}
+
+@media(max-width:1366px){
+
+    #menuShelf{
+
+        width:103,7%;
+    }
+
+    #titleLabel{
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    #title{
+    
+        margin-bottom: 15px;
+        
+    }
+    
+    #category{
+    
+        margin-top: 15px;
+       
+    }
+    
+}
+
+@media(max-width:1325px){
+
+    #adminData{
+
+        margin-left: 100px;
+        
+    }
+    
+
+}
+
+
+@media (max-width:1200px){
+
+    #loginForm{
+
+        margin-right: 0px;
+        
+    }  
+
+         
+}
+
+@media (max-width: 1150px){
+
+   #container1{
+
+    margin-right: 100px;
+   }
+
+   #welcome{
+
+    margin-right: 80px;
+   }
+
+   #enviarIndex{
+
+    padding: 3%;
+   }
+
+   #resetIndex{
+
+    padding: 3%;
+   }
+}
+
+@media(max-width:1100px){
+
+    #estanteria{
+
+        #readContainer{
+
+            width: 80%;
+            margin-right: 150px;
+        }
+        
+        #readingContainer{
+        
+            width: 80%;
+            margin-right: 150px;
+        }
+        
+        #toReadContainer{
+        
+            width: 80%;
+            margin-right: 150px;
+            
+        }
+        
+        #abandonedContainer{
+           width: 80%;
+           margin-right: 150px;
+        }
+        
+        #formContainer{
+            
+            width: 80%;
+            margin-right: 150px;
+           
+        }
+
+        #logOutShelf{
+
+            width: 80%;
+            margin-right: 150px;
+        }
+    }
+}
+
+@media(max-width:1024px){
+
+    #menuShelf{
+
+        width:104,9%;
+    }
+}
+
+@media(max-width:1000px){
+
+    #estanteria{
+
+        #readContainer{
+
+           margin-right: 170px;
+        }
+        
+        #readingContainer{
+        
+            
+            margin-right: 170px;
+        }
+        
+        #toReadContainer{
+        
+            
+            margin-right: 170px;
+            
+        }
+        
+        #abandonedContainer{
+           
+            margin-right: 170px;
+        }
+        
+        #formContainer{
+            
+            
+            margin-right: 170px;
+           
+        }
+
+        #logOutShelf{
+
+            
+            margin-right: 170px;
+        }
+    }
+}
+
+@media (max-width:985px){
+
+    #cabeceraIndex{
+ 
+     width: 100%;
+    }
+ 
+    #navbarIndex{
+ 
+     width: 110%;
+    }
+
+    #container1{
+
+        margin-left:30px;
+    }
+
+    #labelUser{
+
+        padding-left: 10px;
+    }
+
+    .mensaje{
+
+        font-size: 20px;
+    }    
+}
+
+@media(max-width:947px){
+
+    #adminData{
+
+        margin-left: 200px;
+        
+    }
+
+    #cabecera{
+
+        font-size: 37px;
+    }
+
+}
+
+@media(max-width:800px){
+
+    #buttonsIndex{
+
+        margin-left: 270px;
+    }
+}
+
+@media(max-width:812){
+
+    #menuShelf {
+            
+        width: 105.5%;
+        
+    }
+}
+
+
+@media(max-width:777px){
+
+    #labelUser{
+
+        padding-left:0px;
+    }
+}
+
+@media(max-width:768px){
+
+    #menuShelf {
+            
+        width: 105.2%;
+        
+    }
+
+       
+    #titleLabel{
+    
+        font-size: 20px;
+        margin-bottom: 15px ;
+        
+    }
+
+    
+    #categoryLabel{
+    
+       font-size: 20px;
+       margin-bottom: 15px ;
+       
+       
+    }
+
+    #adminData{
+
+        margin-left: 175px;
+    }
+
+    footer{
+
+        margin-top: 500px;
+    }
+}
+
+@media(max-width:768px){
+
+    .cabecera{
+
+        font-size: 35px;
+    }
+}
+
+@media(max-width:756px){
+
+    #labelsIndex{
+
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+    }
+    #buttonsIndex{
+
+        margin-left: 180px;
+        
+    }
+
+    #container2{
+
+        margin-right: 20px;
+    }
+
+}
+
+@media(max-width: 731px){
+
+    #estanteria{
+
+        #readContainer{
+
+          font-size: 20px;
+        }
+        
+        #readingContainer{
+        
+            
+            font-size: 20px;
+        }
+        
+        #toReadContainer{
+        
+            
+            font-size: 20px;
+            
+        }
+        
+        #abandonedContainer{
+           
+            font-size: 20px;
+        }
+        
+        #formContainer{
+            
+            
+            font-size: 20px;
+           
+        }
+
+        #menuShelf {
+            
+            width: 105.2%;
+            
+        }
+    }
+}
+
+@media(max-width:640px){
+
+    #menuShelf {
+            
+        width: 105.2%;
+        
+    }
+
+}
+
+
+@media(max-width:630px){
+
+    #welcome{
+
+        font-size: 45px;
+    }
+
+    #buttonsIndex{
+
+        margin-left: 160px;
+        
+    }
+
+    #cabeceraShelf>header>h3{
+
+        margin-right: 50px;
+    }
+}
+
+@media(max-width:614px){
+
+    #loginForm>fieldset>legend{
+
+        font-size: 20px;
+    }
+
+    #buttonsIndex{
+
+        margin-left: 130px;
+        
+    }
+
+    #container2{
+
+        margin-right: 25px;
+    }
+
+
+
+}
+@media(max-width:720px){
+
+    #adminData{
+
+        margin-left: 170px;
+    }
+}
+
+@media(max-width:700px){
+
+    #adminData{
+
+        margin-left: 166px;
+    }
+}
+
+@media(max-width:690px){
+
+    #adminData{
+
+        width:70%;
+        margin-left: 97px;
+    }
+}
+
+@media(max-width:680px){
+
+    #adminData{
+
+        width:35%;
+        margin-left: 213px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:600px){
+
+    #adminData{
+        width:30%;
+        margin-left: 200px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:580px){
+
+    #adminData{
+        width: 25%;
+        margin-left: 208px;
+        font-size: 12px;
+    } 
+
+    #cabeceraData{
+
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:555px){
+
+    #adminData{
+        width: 22%;
+        margin-left: 204px;
+        font-size: 11px;
+    } 
+
+   
+
+}
+
+@media(max-width:525px){
+
+    #adminData{
+        width: 17%;
+         margin-left: 211px;
+        font-size: 10px;
+    } 
+
+ 
+}
+
+@media(max-width:500px){
+
+    #adminData{
+        
+        margin-left: 200px;
+        
+    } 
+
+    #cabeceraData{
+
+        font-size: 25px;
+    }
+ 
+}
+
+@media(max-width:480px){
+
+    #adminData{
+        
+        margin-left: 188px;
+        
+    } 
+
+    #cabeceraData{
+
+        font-size: 20px;
+    }
+ 
+}
+
+@media(max-width:465px){
+
+    #adminData{
+        
+        margin-left: 184px;
+        width: 16%;
+               
+    } 
+
+     
+}
+
+@media(max-width:455px){
+
+    #adminData{
+        
+        margin-left: 197px;
+        width: 10%;
+        font-size: 9px;
+  }
+
+  #deleteForm{
+
+    font-size: 8px;
+  }
+
+} 
+
+@media(max-width:450px){
+
+    #adminData{
+        
+        margin-left: 201px;
+        width: 7%;
+  }
+
+} 
+
+@media(max-width:440px){
+
+    #adminData{
+        
+        margin-left: 201px;
+        width: 5%;
+  }
+
+} 
+
+@media(max-width:435px){
+
+    #adminData{
+        
+        margin-left: 199px;
+        width: 4%;
+  }
+
+} 
+
+@media(max-width:430px){
+
+    #adminData{
+        
+        margin-left: 197px;
+   }
+
+} 
+
+
+@media(max-width:428px){
+
+    #adminData{
+        
+        margin-left: 209px;
+        width: 3%;
+  }
+
+} 
+
+@media(max-width:423px){
+
+    #adminData{
+        
+        margin-left: 204px;
+    } 
+
+}
+
+@media(max-width:417px){
+
+    #adminData{
+        
+        margin-left: 200px;
+    } 
+
+} 
+
+@media(max-width:411px){
+
+    #adminData{
+        
+        margin-left: 201px;
+        width: 1%;
+    } 
+
+} 
+
+
+@media(max-width:527px){
+
+    #loginForm>fieldset>legend{
+
+        font-size: 15px;
+    }
+
+    #buttonsIndex{
+
+        margin-left: 100px;
+        
+    }
+
+    #container2{
+
+        margin-right: 30px;
+    }
+
+}
+
+
+
+@media(max-width:490px){
+
+    #cabeceraIndex>header>h3{
+
+        font-size: 40px;
+    }
+
+    #buttonsIndex{
+
+        margin-left: 90px;
+        
+    }
+
+    #container2{
+
+        margin-right: 40px;
+    }
+    
+    #cabeceraShelf>header>h3{
+
+        margin-right: 60px;
+    }
+}
+
+@media(max-width:460px){
+
+    #readContainer{
+
+        margin-right: 250px;
+    }
+
+}
+
+@media(max-width:441px){
+
+    #cabeceraIndex>header>h3{
+
+        font-size: 30px;
+    }
+    #welcome{
+
+        font-size: 40px;
+    }
+
+    #loginForm>fieldset>legend{
+
+        font-size: 10px;
+    }
+
+    #container2{
+
+        margin-right: 60px;
+    }
+
+    #buttonsIndex{
+
+        margin-left: 60px;
+        
+    }
+}
+
+@media(max-width:411px){
+
+    #estanteria{
+
+        #readContainer{
+
+          font-size: 12px;
+        }
+        
+        #readingContainer{
+        
+            
+            font-size: 12px;
+        }
+        
+        #toReadContainer{
+        
+            
+            font-size: 12px;
+            
+        }
+        
+        #abandonedContainer{
+           
+            font-size: 12px;
+        }
+        
+        #formContainer{
+            
+            
+            font-size: 12px;
+           
+        }
+
+        
+    }
+
+    #menuShelf{
+
+        width:100%;
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    
+  .cabecera{
+
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  
+       
+   
+}
+
+@media(max-width:375){
+
+    #menuShelf {
+        width: 105.1%;
+        
+    }
+
+    #navbarIndex{
+
+        margin-left: 10px;
+    }
+
+
+    #readContainer{
+
+       margin-right:200px;
+    }
+
+    #readContainer>h2{
+
+        margin-left: 80px;
+    }
+
+    #cabeceraModify>header>h3{
+
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+}
+
+@media(max-width:370px){
+
+    #cabeceraIndex>header>h3{
+
+        font-size: 30px;
+    }
+    #welcome{
+
+        font-size: 30px;
+        margin-left: 27px;
+    }
+
+    #loginForm>fieldset>legend{
+
+        font-size: 12px;
+    }
+
+    #container1{
+
+        margin-left: 42px;
+    }
+
+    #container2{
+
+        margin-right: 60px;
+    }
+
+    #buttonsIndex{
+
+        margin-left: 60px;
+        
+    }
+
+    #labelUser{
+
+        font-size: 12px;
+    }
+
+    #labelPassword{
+
+        font-size: 12px;
+    }
+}
+
+@media(max-width:360px){
+
+    #readContainer{
+
+        margin-right:220px;
+     }
+}
+
+@media(max-width:345px){
+
+    #welcome{
+
+     margin-left: 35px;
+    }
+
+   
+    #container1{
+
+        margin-left: 50px;
+    }
+
+    #container2{
+
+        margin-right: 50px;
+    }
+
+}
+
+@media(max-width:315px){
+
+    #cabeceraIndex>header>h3{
+
+        font-size: 25px;
+    }
+
+    #welcome{
+
+     margin-left: 50px;
+    }
+
+   
+    #container1{
+
+        margin-left: 70px;
+    }
+
+    #container2{
+
+        margin-right: 70px;
+    }
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
